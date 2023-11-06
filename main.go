@@ -3,7 +3,7 @@ const N = 16
 const alph = "0|"
 
 func main() {
-	t := new_thorium_system("O|")
+	t := new_thorium_system()
 	print_key(t.hard_key)
 	for i := 0 ; i < 8 ; i++ {
 		p := random_text(16)
